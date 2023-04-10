@@ -1,0 +1,46 @@
+.contact {
+  background-color: var(--white);
+  padding: 1.5em;
+}
+
+.contact__title,
+.contact__text,
+.contact__subscription {
+  background: var(--blue-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  
+}
+
+.contact__title {
+  font-weight: 500;
+  font-size: 1.13em;
+  line-height: 1.69em;
+  margin-bottom: 0.5em;
+}
+
+.contact__text {
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.contact__subscription {
+  padding: .6em;
+  font-size: 1em;
+  font-weight: 400;
+  font-family: var(--font-main);
+  line-height: 1.5em;
+  outline: 0;
+  border: 1px solid var(--blue-strong);
+  border-radius: 24px;
+  width: 95%;
+}
+
+.contact__subscription::placeholder {
+  background: url('../assets/Email.svg') no-repeat;
+  background-position: 1em;
+  padding: 0 3.1em;
+}

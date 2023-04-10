@@ -1,0 +1,10 @@
+.bottom {
+  background-color: var(--white);
+  padding: 1.07em 1.5em 1.5em 1.5em;
+}
+
+.bottom__title {
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5em;
+}
