@@ -21,3 +21,68 @@
   position: initial;
   margin: .5em 0;
 }
+
+.card {
+  background: var(--white);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 1em;
+  margin: 1.5em;
+}
+
+.card__description {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.7em;
+}
+
+.description__title {
+  color: var(--orange);
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 1.4em;
+  margin-bottom: 0.6em;
+}
+
+.description__title-book {
+  color: var(--blue-strong);
+  font-weight: 700;
+  font-size: 1.125em;
+  line-height: 1.687em;
+  margin-bottom: 0.5em;
+}
+
+.description__text {
+  font-weight: 400;
+  font-size: 0.88em;
+  line-height: 1.31em;
+  padding-right: 2em;
+}
+
+.card__buttons {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons__item{
+  margin: 0 .8em;
+}
+
+.button-anchor {
+  background-color: var(--orange);
+  color: var(--white);
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 700;
+  padding: .75em 2.2em;
+}
+
+.stars {
+  margin: .6em 0;
+}

@@ -1,0 +1,35 @@
+.topics {
+  background: var(--blue-gradient);
+  text-align: center;
+  padding: 1.5em 0;
+}
+
+.topcis__title {
+  color: var(--white);
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  padding-bottom: 2em;
+}
+
+.topics__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.topics__item {
+  color: var(--white);
+  background-color: var(--orange);
+  padding: 1em 1.5em;
+  font-weight: 700;
+  font-size: .88em;
+  line-height: 21px;
+}
+
+.topics__link {
+  color: var(--white);
+  text-decoration: none;
+}
+
