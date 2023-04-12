@@ -70,7 +70,7 @@
   align-items: center;
 }
 
-.buttons__item{
+.buttons__item {
   margin: 0 .8em;
 }
 
@@ -85,4 +85,39 @@
 
 .stars {
   margin: .6em 0;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .carousel__title {
+    padding: 2.5em 0 1em 0;
+    font-size: 26px;
+  }
+
+  .swiper {
+    width: 60%;
+  }
+
+  .swiper-pagination {
+    margin: 2em 0 4em 0;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: block;
+    top: 62%;
+  }
+
+  .card {
+    width: 54%;
+    margin: 3.5em auto 2.5em auto;
+    padding: 1.5em;
+  }
+
+  .description__text {
+    font-size: 1em;
+    line-height: 1.5em;
+    padding-right: 2em;
+  }
+
 }

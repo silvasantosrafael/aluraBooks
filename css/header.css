@@ -72,6 +72,14 @@
 
 
 @media screen and (min-width: 1024px) {
+  .top {
+    padding: 0 64px;
+  }
+
+  .container ~.top-container-right {
+    gap: 28px
+  }
+
   .container__titulo {
     font-size: 30px;
     font-family: var(--secondary-font);
@@ -83,9 +91,18 @@
     font-weight: 700;
   }
 
+  .list-menu {
+    padding: 20px;
+    top: 88%;
+  }
+
+  .list-menu__item {
+    padding: 1em 0;
+  }
+
   .options {
     display: flex;
-    gap: 2.625em;
+    gap: 1em;
     text-transform: uppercase;
   }
 
@@ -97,6 +114,10 @@
   .container__image-transparent,
   .top__menu-hamburguer {
     display: none;
+  }
+
+  .options__item {
+    padding: 10px;
   }
 
   .options__button:checked~.list-menu {
