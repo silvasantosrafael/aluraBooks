@@ -13,6 +13,8 @@
   --orange: #EB9B00;
   --blue-strong: #002F52;
   --blue-medium: #326589;
+  --grey: #858585;
+  --grey-strong: #474646;
   --black: #000000;
   --blue-gradient: linear-gradient(97.54deg, var(--blue-strong) 35.49%, var(--blue-medium) 165.37%);
   --main-font: 'Poppins', 'sans-serif';
