@@ -54,3 +54,21 @@
   }
 
 }
+
+
+@media screen and (min-width: 1728px) {
+  .topics {
+    padding: 64px 74px;
+  }
+
+  .topcis__title {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .topics__list {
+    width: 36%;
+    margin: 0 auto;
+  }
+
+}

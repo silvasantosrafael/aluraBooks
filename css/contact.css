@@ -72,3 +72,28 @@
   }
 
 }
+
+
+@media screen and (min-width: 1728px) {
+  .contact {
+    padding: 64px 0 60px 0;
+  }
+
+  .contact__description {
+    width: 400px;
+  }
+
+  .contact__title {
+    margin-bottom: 0;
+  }
+
+  .contact__text {
+    width: 300px;
+  }
+
+  .contact__subscription {
+    width: 350px;
+    margin-left: 20px;
+  }
+
+}

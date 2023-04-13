@@ -47,7 +47,6 @@
 
 .list-menu__item {
   padding: 1.2em 0;
-
 }
 
 .list-menu__title {
@@ -66,7 +65,8 @@
 }
 
 .container__titulo,
-.options {
+.options,
+.container__text {
   display: none;
 }
 
@@ -76,7 +76,7 @@
     padding: 0 64px;
   }
 
-  .container ~.top-container-right {
+  .container~.top-container-right {
     gap: 28px
   }
 
@@ -86,7 +86,7 @@
     padding: 30px 0 20px 0;
     display: block;
   }
-  
+
   .container__titulo--bold {
     font-weight: 700;
   }
@@ -112,7 +112,8 @@
   }
 
   .container__image-transparent,
-  .top__menu-hamburguer {
+  .top__menu-hamburguer,
+  .options__button {
     display: none;
   }
 
@@ -126,8 +127,28 @@
     z-index: 10;
   }
 
-  .options__button {
-    display: none;
+}
+
+
+@media screen and (min-width: 1728px) {
+
+  .container__titulo {
+    margin-right: 67px;
+  }
+
+  .container__text {
+    display: block;
+  }
+
+  .container__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--black);
+  }
+
+  .options {
+    margin-right: auto;
   }
 
 }

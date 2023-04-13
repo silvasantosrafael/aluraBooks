@@ -121,3 +121,57 @@
   }
 
 }
+
+
+@media screen and (min-width: 1728px) {
+  .carousel__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 85px;
+    margin: 70px 10vw 100px 10vw;
+  }
+
+  .swiper {
+    width: 30%;
+    margin: 0;
+  }
+
+  .swiper-pagination {
+    margin-top: 0;
+    margin-bottom: 2em;
+  }
+  
+  .swiper-slide {
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15);
+
+  }
+  .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+  }
+
+  .description__title {
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 0;
+  }
+
+  .description__title-book {
+    font-size: 18px;
+  }
+
+  .description__text {
+    font-size: 16px;
+  }
+
+  .card {
+    width: 28%;
+    margin: 0;
+    margin-top: 42px;
+  }
+
+  .card__description {
+    gap: 3.9em;
+  }
+}

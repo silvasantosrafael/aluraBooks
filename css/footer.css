@@ -16,7 +16,8 @@
 @media screen and (min-width: 1024px) {
   .bottom {
     display: grid;
-    grid-template-columns: 264px 240px 250px 1fr;
+    /* grid-template-columns: 264px 240px 250px 1fr; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 56px 24px 70px 24px;
   }
 
