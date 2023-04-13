@@ -76,7 +76,7 @@
 
 @media screen and (min-width: 1728px) {
   .contact {
-    padding: 64px 0 60px 0;
+    padding: 64px 0 50px 0;
   }
 
   .contact__description {
@@ -93,7 +93,7 @@
 
   .contact__subscription {
     width: 350px;
-    margin-left: 20px;
+    margin-left: 0px;
   }
 
 }

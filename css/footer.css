@@ -24,7 +24,7 @@
   .bottom-list {
     display: block;
   }
-  
+
   .bottom__title {
     font-size: 24px;
     line-height: 36px;
@@ -48,5 +48,19 @@
   .bottom-list__link {
     text-decoration: none;
     color: var(--grey-strong);
+  }
+}
+
+
+@media screen and (min-width: 1728px) {
+  .bottom {
+    border-top: 1px solid var(--grey);
+    padding: 56px 255px 70px 255px;
+    grid-template-columns: 300px 400px 395px 1fr;
+  }
+
+  .bottom-list {
+    border-left: 1px solid var(--grey);
+    padding-left: 16px;
   }
 }
