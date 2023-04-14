@@ -76,7 +76,7 @@
 
 @media screen and (min-width: 1728px) {
   .contact {
-    padding: 64px 0 50px 0;
+    padding: 64px 0 60px 0;
   }
 
   .contact__description {
@@ -84,11 +84,12 @@
   }
 
   .contact__title {
-    margin-bottom: 0;
+    margin-bottom: 4px;
   }
 
   .contact__text {
     width: 300px;
+    margin-bottom: 0;
   }
 
   .contact__subscription {

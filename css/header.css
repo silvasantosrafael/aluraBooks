@@ -8,6 +8,14 @@
   margin-left: 1em;
 }
 
+.container__button:checked ~ .container__label > .top__menu-hamburguer {
+  background-image: url('../assets/MenuAberto.svg');
+}
+
+/* .container__button:checked ~ .container__label {
+  background: var(--blue-gradient);
+} */
+
 .top {
   background-color: var(--white);
   display: flex;
