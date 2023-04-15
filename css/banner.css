@@ -5,9 +5,9 @@
 }
 
 .banner__container-text {
-  width: 320px;
+  width: 89%;
   margin: auto;
-  padding: 2.5em 1.5em 1.5em;
+  padding: 2.5em 0 1.5em 0;
 }
 
 .banner__title {
@@ -22,7 +22,7 @@
 }
 
 .banner__container-search {
-  padding: 0 1.5em 2em 1.5em;
+  padding: 0 8% 2em 8%;
 }
 
 .banner__search {
@@ -41,9 +41,18 @@
   color: var(--white);
   font-family: var(--main-font);
   text-align: center;
-  text-indent: 16%;
+  text-indent: 50px;
   background: url('../assets/Magnifier.svg') no-repeat;
-  background-position: 1.5em;
+  background-position: calc(50% - 100px) center;
+}
+
+
+@media screen and (max-width: 428px){
+  .banner__container-text {
+    width: 320px;
+    margin: auto;
+    padding: 2.5em 0 1.5em 0;
+  }
 }
 
 
@@ -70,7 +79,7 @@
 
   .banner__search::placeholder {
     font-size: 16px;
-    background-position: 6em;
+    background-position: calc(50% - 120px) center;
   }
 }
 
@@ -93,6 +102,6 @@
 
   .banner__search::placeholder {
     font-size: 16px;
-    background-position: calc(50% - 100px);
+    background-position: calc(50% - 120px) center;
   }
 }
