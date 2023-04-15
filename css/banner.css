@@ -75,6 +75,12 @@
     padding: 50px 0 60px 0;
   }
 
+  .banner__container-text {
+    width: 100%;
+    margin: auto;
+    padding: 2.5em 1.5em 1.5em;
+  }
+
   .banner__search {
     width: 604px;
   }
